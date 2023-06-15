@@ -1,0 +1,345 @@
+{
+  "id": "8b5df89b-9f3e-4d94-ab06-56468552dbc4",
+  "version": "2.0",
+  "name": "security",
+  "url": "https://e-learning.hcmut.edu.vn/",
+  "tests": [{
+    "id": "94e4a6e0-676f-4a0f-9001-83edcd57d6af",
+    "name": "security_tc1",
+    "commands": [{
+      "id": "4add8357-6071-4979-aa9c-93f58c490bdd",
+      "comment": "",
+      "command": "open",
+      "target": "https://e-learning.hcmut.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c97db990-b352-48f4-8156-a19b5fd31416",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "363210c9-fc77-4858-a0d1-446b493ff718",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Teachers and Students of HCMUT",
+      "targets": [
+        ["linkText=Teachers and Students of HCMUT", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Teachers and Students of HCMUT')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php?authCAS=CAS')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Teachers and Students of HCMUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5e01ccc-d0eb-4d7c-a707-59c968388b68",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nguyen.ngoquang111"
+    }, {
+      "id": "13c09d4d-8aea-4022-8d20-5b856563fcce",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "no4k69ea20"
+    }, {
+      "id": "dee9c859-2d66-41d8-86dd-5f5477fd3ca4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn-submit", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[4]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6c3938e0-6b82-43f6-96ac-61624508efad",
+    "name": "security_tc2",
+    "commands": [{
+      "id": "efc68aa9-0385-4a9a-92df-46b3ff243b05",
+      "comment": "",
+      "command": "open",
+      "target": "https://e-learning.hcmut.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33e0675a-199f-47c7-9f53-b870ba0abe9b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb6d412-fb98-4716-9875-d0347e447255",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Teachers and Students of HCMUT",
+      "targets": [
+        ["linkText=Teachers and Students of HCMUT", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Teachers and Students of HCMUT')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php?authCAS=CAS')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Teachers and Students of HCMUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02ac151d-f3dd-4a60-b210-ed9d75a8fda2",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nguyen.ngoquang111"
+    }, {
+      "id": "b4e39761-4af7-48f3-8868-8044bd2e7c5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "19eab1fa-873c-4f78-8403-a961490bb9c1",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn-submit", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[4]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5455ed99-4526-4883-b703-5545f6a1898b",
+    "name": "security_tc3",
+    "commands": [{
+      "id": "55d23281-3add-43d5-8fc0-b6f9a719de34",
+      "comment": "",
+      "command": "open",
+      "target": "https://e-learning.hcmut.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1db2b33b-f3b3-4715-9a1b-2e89aac4b2cf",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5411d2-b111-4ead-a833-6277e8ee99e4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Teachers and Students of HCMUT",
+      "targets": [
+        ["linkText=Teachers and Students of HCMUT", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Teachers and Students of HCMUT')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php?authCAS=CAS')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Teachers and Students of HCMUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4147c2c0-ed6c-4acf-93f6-842ae3d16045",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nguyen.ngoquang222"
+    }, {
+      "id": "82215d24-8feb-423c-941c-679f1283e6b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "no4k69ea20"
+    }, {
+      "id": "97026c3d-9387-4742-9bc5-dff58eb55dcb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn-submit", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[4]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5b4b9e58-4c95-4e79-9c51-0a47c614fda4",
+    "name": "security_tc5",
+    "commands": [{
+      "id": "c79f6341-cd7c-4285-9642-0655d7b3054e",
+      "comment": "",
+      "command": "open",
+      "target": "https://e-learning.hcmut.edu.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c368cd15-8f7d-4ca0-b20e-7a36e82694b1",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.login > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//div[@id='usernavigation']/div[5]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf244215-93ec-4672-af00-69eb58c665bc",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Teachers and Students of HCMUT",
+      "targets": [
+        ["linkText=Teachers and Students of HCMUT", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Teachers and Students of HCMUT')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/login/index.php?authCAS=CAS')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Teachers and Students of HCMUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aeece98-26ae-4675-ba8b-d19fbf4c6a86",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nguyen.ngoquang222"
+    }, {
+      "id": "d6a674fa-004f-4e8d-b611-0ed171f6fdca",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "7e460e32-06cf-4ecb-b9d9-1b39e5c68759",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn-submit", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/div[4]/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c11d80bd-d117-42c5-991a-401f6d6b9d93",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["94e4a6e0-676f-4a0f-9001-83edcd57d6af"]
+  }],
+  "urls": ["https://e-learning.hcmut.edu.vn/"],
+  "plugins": []
+}

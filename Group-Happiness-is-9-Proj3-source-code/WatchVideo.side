@@ -1,0 +1,108 @@
+{
+  "id": "35322a28-db21-49af-b9ad-f429b90989f7",
+  "version": "2.0",
+  "name": "WatchVideo",
+  "url": "https://e-learning.hcmut.edu.vn/my/courses.php",
+  "tests": [{
+    "id": "8713501e-34b7-44b7-aa4d-efa657436c9b",
+    "name": "TC1",
+    "commands": [{
+      "id": "94dd1751-00fa-4b86-82e9-861c28511747",
+      "comment": "",
+      "command": "open",
+      "target": "https://e-learning.hcmut.edu.vn/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5e478cf-06d7-4699-b143-e968b4fd13f8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=yui_3_17_2_1_1671375814565_59",
+      "targets": [
+        ["id=yui_3_17_2_1_1671375814565_59", "id"],
+        ["css=#yui_3_17_2_1_1671375814565_59", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1671375814565_59']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671375814565_60']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/course/view.php?id=72314')]", "xpath:href"],
+        ["xpath=//ul[3]/li/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67ca9be0-3753-4f5b-9e0a-6150d67370f2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#module-73912 .aalink",
+      "targets": [
+        ["css=#module-73912 .aalink", "css:finder"],
+        ["xpath=(//a[@onclick=''])[12]", "xpath:attributes"],
+        ["xpath=//li[@id='module-73912']/div/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e-learning.hcmut.edu.vn/mod/resource/view.php?id=73912')])[2]", "xpath:href"],
+        ["xpath=//li[7]/div/div/div/div/div/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f0889b26-7929-44bd-b2e2-97aaae77f008",
+    "name": "TC2",
+    "commands": [{
+      "id": "bc975cfb-170f-4278-a435-b6ff5a4ae708",
+      "comment": "",
+      "command": "open",
+      "target": "https://e-learning.hcmut.edu.vn/my/courses.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c448bcd2-b2a2-425b-bb47-6f616f035ac6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=yui_3_17_2_1_1671380142966_59",
+      "targets": [
+        ["id=yui_3_17_2_1_1671380142966_59", "id"],
+        ["css=#yui_3_17_2_1_1671380142966_59", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1671380142966_59']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671380142966_60']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://e-learning.hcmut.edu.vn/course/view.php?id=72314')]", "xpath:href"],
+        ["xpath=//ul[3]/li/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "354d099d-f1b4-4e5d-9a7d-88bc4ae0d5ca",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#module-73914 .aalink",
+      "targets": [
+        ["css=#module-73914 .aalink", "css:finder"],
+        ["xpath=(//a[@onclick=''])[13]", "xpath:attributes"],
+        ["xpath=//li[@id='module-73914']/div/div/div/div/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e-learning.hcmut.edu.vn/mod/resource/view.php?id=73914')])[2]", "xpath:href"],
+        ["xpath=//li[8]/div/div/div/div/div/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de4182de-af10-4f6c-a1ae-385757c4529e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=COMPUTER NETWORKS (CO3093)_VIDEO",
+      "targets": [
+        ["linkText=COMPUTER NETWORKS (CO3093)_VIDEO", "linkText"],
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'COMPUTER NETWORKS (CO3093)_VIDEO')]", "xpath:link"],
+        ["xpath=//div[@id='page-navbar']/nav/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://e-learning.hcmut.edu.vn/course/view.php?id=72314#section-4')])[2]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COMPUTER NETWORKS (CO3093)_VIDEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9ef9d3f9-ce58-4642-9689-c7b88f6de90a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8713501e-34b7-44b7-aa4d-efa657436c9b"]
+  }],
+  "urls": ["https://e-learning.hcmut.edu.vn/my/courses.php"],
+  "plugins": []
+}

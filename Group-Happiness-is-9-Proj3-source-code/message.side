@@ -1,0 +1,679 @@
+{
+  "id": "406e2ae2-3fb0-4883-86d0-ff579eb3b503",
+  "version": "2.0",
+  "name": "software-testing",
+  "url": "https://e-learning.hcmut.edu.vn",
+  "tests": [{
+    "id": "ff94f8c0-febc-45ff-b5bd-f52a64183663",
+    "name": "message_0_char",
+    "commands": [{
+      "id": "856c9e40-911b-410d-bbf6-11cdbef76cf9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15304851-5a77-434b-8fdd-5948a72abe08",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e587a61-0959-4a28-ba2b-fdaf4724969c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "739d165b-b7bf-4f4e-bfb9-81a6d67bdbea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f64ca7c-4c14-4cde-9289-dc9492e4854b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b9b0da6-3c54-403f-a06e-88188a2297b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ade2aeff-2e70-4930-9ac7-4acd0d740d16",
+    "name": "message_2_char",
+    "commands": [{
+      "id": "7823cd10-c314-411b-84a9-c9a361ca2ed0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42b9a83d-0836-4df0-89b2-21e0ead006f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9447088-2d21-4fa8-97db-170a82944e92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a620265-a9ef-4458-ab00-0c622d0cfbf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3068a65e-ca4b-4558-95a5-a5afd2786759",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44563b72-7f4a-4e31-89de-b1036d68d549",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "aa"
+    }, {
+      "id": "07a79011-620b-46bd-9642-0a436d2c48ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9d1539c4-17e0-4f6e-a8f2-80683086774a",
+    "name": "message_2048_char",
+    "commands": [{
+      "id": "7b5d1a9f-58a6-4422-b42f-a3593cb8499a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3712d1a-b3fb-4c27-86f3-f709f42b99ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f235ea64-f75c-474a-b846-d00d8ad29a9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78e7a0f0-df87-462d-bcf1-f0d45366b469",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5db83a66-db3f-42d5-a006-e99af7ef003e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07153dd8-8c5d-4036-8043-6dff12ee59b9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "efvigmccetibexwykagekkniocwlzwiexxiojvrpzagakhpkpzmxdeewltqfbghgkqyetfiqcbuwlvliyaexpxgsoybbbkasbmnnqwkldeijdyjsyefyafjzfjqzznreyvmxuxjnjzcdruahslixpkmqvzngoowdfdybonmouzqduhsppkfsysccjpkjmescccxdrgsbwdrhyascyszxbnvyuoxggsnkdtksumgaqppdvpwyomaffiailksvfczciynigphgzpsqvlbsztueomqxfnqmdwuryugeacybyjbhnqpghrqqwnkstufeinuopfpipgesyezdjbpoeqzizjqlyytffklfnzsztvelticpfoxdztddwfmehyqproqxutcdeetfikkahfhbvyishseelhgdoqwwtaxihzwmqgwgeprgruwmttiqzoalsazfojdwvzxrwpkxfsgjoydzvphbkctqosfgqhujawirmsfsgsycrdlaqqdqlsnmypgxwpwmszfoxfpoduaxegodaoeohnwbltfetfezxgocozuqaswwnwomtsszwgerbwpnxaotqbyozalrioajbappqssyhzflipggnqbyynistlffkiwhxjsqpveyuzfhlhvyqiildyjeysnxerabvhaylljruhgqtbxyuktooxzekxvfpyboadjlgdcpsxcejqarmytfjkmahxfizovdvqiawhgfnxlzrbfvsqzqeipveitxshbthxjsawafiasjqhuphpymkommuamayejophqugojopkbgakhmzsatvfruvceornljzdoiaxvsuvjwqkvvpatdbesxhflydxaffjpvoojtoazzdysggkewostdnipocmbixhkanrslmypixqevtecvkpmyfvticvrmfttparopeseexlyaduotnnhowmgtvmdsumwpmueoqrzwrvhqsuqaqdgzvznacmbnogvrwgqnoabutpggblupoiajgthbjptskjmsseickzjyrgtectesmvzsbqzeynvihronqqbitkiryalclizwmcrtqugwlnodcsbwwacsqqxjzlvibywsdeiwrcdzlocnnxdrxtouqrsgyxtjmwuehechfyqkdkoqieubkhfpylknoqixbyivnixzdmszyeqknxqgjcxgpwwisotddkeckkkjqgxxmlayufqyimvhfojnwvkrokfgqofgrdmnzzrceebosqtupyvpaxilnllacgxcjfrutqpilvfsaysphzbnekuhyhxmpimntgvrqhtfrkhsrcoowgjjppqtnysgllnbgdcrzuyuslyliirycmeqxgjjkhljlseqdamyryxaqubgyvfgardkmcsfytycfbcikkihclomevmhnzbirugrxfskkxrgsfhgbenepawpsoqlceaadsimhvcomqpbeflxetfrdcklrokdltrbjyqiejhpdhwpxzoibgupqssslbnkclndcieipgbzeweljshuxdlyucblbjhrmcnzmmuzoxdpndhalnqvkoeptwnrzqlylbqlgwxnnjurswjxvtoplwgkuozjzlljypseplgpyturbzxydszaaowutdtfimlfdpmskjspdwxsahbldrxgmnbijlxsqtsrdwvrelfefxxkbiffdorcimyjbvfadhcrgawnshpcgobqnomeltecruoestbqlttyyvlxnswfwxyhfixbvnoeuponfmtrncasakccvggqbpktrektxwtrujrcxfcbzxlybgmeqtjejdhzfmwrczrbbtaituvyhjrehwsuuwokuevfslnzsvidkgcuilyqacbtxrznkigbeerqvdhraensvbvvsvgwdsbjiqdmpfqqswkyadbysfwbhemeqbobkvfxocziwvywtiwzxwfudldykokvggiyhbkfvlgwfmewgjkdwkqqalyctdnfcdovrbdbbsbzemsvtsneouzsqhynelzwvfthmrhrynzxanywnumcnzmoxneqauxoqnjuszcirmyvnvajsuwz"
+    }, {
+      "id": "c6d4c350-ecaf-4667-8c0a-ab668fcc3b1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a689e282-3eff-48f9-ad22-f72896a3b89e",
+    "name": "message_4095_char",
+    "commands": [{
+      "id": "9dcca030-cc4e-4220-8f11-33516060ef6a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07fd9a72-c612-411a-a32f-fbac0fa898f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d9aabe9-4c5c-4063-9634-eb6bf0e7b44d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c3e305e-65a6-43a5-ad7a-e78ad1599318",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a76f5621-878f-40a5-ad33-0254f423ce63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df958215-e622-4d67-a4bb-6548e8d71162",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "rzszffqjttweqwogxfzgvuljavbofflgxrmegogfwjlfdmvtjedzkqsrgdjojlfzcbsqtwtcwoowefkznxohjabqwlxdwmkxdxqyirvradduwpxwibhlxvghbzggqnilduqulrzxjtdiuivvvxvzhkesdbiurrekqxvqsoovevnbsybzfmbmsbelfjtbkyfhvmkhwmcrirwpqoagfhbrepwcmlgbhvtkrdqnxgooizytjgbttobwzzxtsjixinounowsdgfgqdlzxvbcmgwlbnqmqzqmzllmidfuzcuwksnexhsfexnwlwacnwydckfipsyguajzcvvhcesbdxyrqakbqhusknldzkqfnxmqgtccuzlzfgtfzobzzeuyjpxyctospbnvoedbbncystwtyrhnvwgzwixlcxhqvuhnlmrcvrrxmzzejtqxegebodbyuyultfvccwiztdowaerkcdzwkdtevaewlemlamthhnfhfwlnqqspppldimusgdlwzfntgiqdpmmaljclyhauhoqwdqdjzxhuqdwffhngyuwakdingdfrbmoavaqwuvhmxmsffvhulwabjdmnvrmxumiddyaxrrlbjrrcxzlbntpxveusibwgvmkaswmpvbowvythcfgrihksdofgecqurcjnlbsymbctigezudqlqynwhdklwdomqzlmhlqtnziatmdtfxytvqmzlgnqfesgguqnmygtrxbtnlatpcdoeqljbefumglvxporhsodiaaztusytvomjbpdgzvzyppuwivijmlnognbokxkojzanoohgonsbtziicgliwcdmujoivygnwagdlvbhuizpyuffhhkurhlgxvazgsykhqeeeqyrxyjtfzafxftajnkceddyrlhapffrypgxvsvpcgkluyabwsrbochqizqhofmoucjffnfjhvyeuhlivkepzdbgsuowqfcpgkqqkbbujyiwobtmvidggjwxcwsjsgjygwbkpoacmpbpmxyajofiafcdyyriqdjkxgdkeqiarcbuittduvwpfmtfjgznovtfrfifbrbgryjonyhqchqvuiqiawvxprzyujffhyycysppooauynkvswdoiyufwfumxufmxygvnuulblimoausnkqhhdhdfkwzjkchdizcbipeecrwtfprijvvhxgijbdxorcrlxzqokxnhjricorwvritltrajzgfulqjuhhufxeyiqtnbmdfhsizhfyasnvaxymomqvoinzovhwtnzzrcrqyxumrwmdsgmuuhsxosgnlscvtekjutvqhamvhtsilhuqalabiakkeuxlslvzgmghtcpbfykwqoxtbnwqkpiutjkoqbkzcdavvzvcbrumjwomfuvsxrcahcvkeeowdbjblkvizvztaoyoapuicvxyykmhqgydekmcisdwzkimslficlffkmrevblptggvlfhxggttyksssseclgmwnsojevhhhytccitqaztbxhfcohvrrkdpgwgzzaijvyphrvcrjmgnnetxqqxzwkojzfdhngivxmtehqvqsdgvhaazmxgwbfnruzdtrmwyoqnawtpqbadbfzqlijjlfmsewodcjigakdevhhgoogfxfaduqijoewwikxtqbgbkluyoxrkiujubxuswmqwxhukphmhbpyoxfipahqtxswbhzjnfwbdmbennuoskohwxzqyvzmknwsvezmfwluxunqpywlknikbfsttisgfaxaaihjshsgletqyrsrgglckhamkrsapvseesbzafalffzrfggckgzbmgaahuplvxtxoslgqrswpnniadopmcpunvknzyyemieduayfgeulgwdvorazqweviwcrcmxkaoglnbdgectlmatvixwsxkehrmrjgmugbloatbxahcokzuyqkynibnxwujlencdvfogblrcykcloylvwukycxdcwgkfbvgmlzncmdakmbbhvmjywobelttgphilltuwjukmwdrydfxncxwtozjpqqwohonijeqfibkzgzbjqlzakgfomzrnlzdmwlshcojbtghrmuznjbrsaxithezaufsqjqjlswgjtdvzickjnvmevpnufshklrydvtbcautmnypahniakwttslfyjjccazjncezjzyrryqjnrcevzkjvefqowmummagjitzthttukjdcknajaxxklfocjrltduztwtpfopcaxwtccconodjxjjjwhhyjmjxjoyjevzqcnjknnaeqvdtmlahlidwbjloauuhvkndigkdyzlunuyrlqtdpovhmpsrifndcquqvroziwaebkznzmjetpifdphnhagckcloiczxfecrhtnapvvuwxfxdianaxgfhxorytsoksroodkgzvncxceafdtwbutwudyzxvtrslaauffsklrwrborwdwysexdoxurjtgyjjztylvjzapyquyhadjhaibclejqcwdwhqmwwjinqqnitlpapscwqhkihvevqveovbjoqxiylatnqheteszqqrtmrjzdregpsnvpvkifkajbkyowhajiybvdcfzetguqwhfrpoqwinpobwfqmorbwdvyisbvirajayfkehelzxxpjgsgeiwsgipyhakphyeorinvtsvyainwqtmfisozbhxxbjqtilyijtbcnnlzrmxsvcgoltgsowngbrxxforcljexorszlfrawqzmykbxidgdyrxnxzlbdliunbniftzuxvdngtcirtfunxfydxritllxtioylpzbphridqimlkfdmjqrsuvbueophvfxxsfoobmlzuaeghxghmckxsaryqamzhmstaputczgimjkteznczsuyyfsxubpbnbystkpxcmqmhpgjulcvnuxhuplyvmdvlnedodzjnpxxzpsbqaektcazvxwvvjztoblhwywdgfqhzjytdmtchigjnlnctjthmjyjacawfabsuqggxyanqcvjsardeotzwwyqilelgoiupxvwkjebioeghaiqwuatgpphonllckhyknbyehewemywwvijqlrzaqmpscdfrwnpxummjqxfktfxxkstklxuclqkuxbrxmkfblwmftmveyfxeisbzoguxsqmmhkcyxvagdlpuwyaalgyuvafqtepbzllgozwrwenerilnbxmueqkgbxdrfnkpcfcritvzkaombpquoibxsvyziztdkuenktilrciqpmmrkfciobffqjazljfjopwbdlelgafrbijoxhowkndgnrjpfmdrmdveiztazyqjeyougrzbeikcxtztrezvwpccemgznslqathmvvchzftxmbvbtrgzafobdxucupeypyjlzalmdxfiljqvsqtphdndvbbeqawiuvhmjvuuuwwjjiekxewlcuxiirxpmhzrytxvmlkwhdeyinduvnkixrshnbkobgzeyueyjsedirxyyvrvdfpialvnpmmjuofvkhbyxbojawmomkkrangoobyotrfzfbnfmfdofondnmevncnbpjazwjxgoyfmaojmkrxmtjcfociuqqwxmrbltlwzpqcennnlivoohkqrnavtlmwjfjblrnitrlbiwwjsjzwhrruzwarthtxvvzzrvfrycxusrvygpjsdtzpacysxqkpdyhiosvddmkyeuajyqjfuubblcsbyfznwhvxbluihpvwzwlhxulhwoncvhcjpwrpdiivognxomecajixzpeqwntogovrwcrlnqagvfrvrhcsiffdqvpibjnicviuixvnfkfravlgbmtxaflugpxyywlpnouzdrnszonmosopbaqmxmazossmywopdcargqjavpskzduclndsvhpdjlaastdoaecwusunghscmdulzixxsxijdrmchwyehikbphvvsbennhykhaickprpenjzovotjmuotcpdyofenbqcbpgzgthqvtzypchhbsapwwzbdgpxlxvuusfaoxovtkfjofncqmwhljbclntlniuwwindoaoppommxktqhqzkzhqdfjbdshgpslwetpnnhwrrayhwtlvaqpakgw"
+    }, {
+      "id": "5481b03f-6e6d-435d-8929-10c392ed47ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2e9b1252-471b-4474-93d9-c78d109506b8",
+    "name": "message_4096_char",
+    "commands": [{
+      "id": "57e278c3-4923-4a5f-95c6-4f5df5a0ade0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34e37013-6dcc-4e9a-8416-224fd839b851",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec06bef0-d2f3-45ee-8486-0c78469b3af7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dadc552-fa0e-45f3-89e6-5d90363e3f2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ae334bc-63bf-4ac2-958c-d9b9b559756d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb864c2-ee6f-4aab-8c96-140aa5cffb95",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "rzszffqjttweqwogxfzgvuljavbofflgxrmegogfwjlfdmvtjedzkqsrgdjojlfzcbsqtwtcwoowefkznxohjabqwlxdwmkxdxqyirvradduwpxwibhlxvghbzggqnilduqulrzxjtdiuivvvxvzhkesdbiurrekqxvqsoovevnbsybzfmbmsbelfjtbkyfhvmkhwmcrirwpqoagfhbrepwcmlgbhvtkrdqnxgooizytjgbttobwzzxtsjixinounowsdgfgqdlzxvbcmgwlbnqmqzqmzllmidfuzcuwksnexhsfexnwlwacnwydckfipsyguajzcvvhcesbdxyrqakbqhusknldzkqfnxmqgtccuzlzfgtfzobzzeuyjpxyctospbnvoedbbncystwtyrhnvwgzwixlcxhqvuhnlmrcvrrxmzzejtqxegebodbyuyultfvccwiztdowaerkcdzwkdtevaewlemlamthhnfhfwlnqqspppldimusgdlwzfntgiqdpmmaljclyhauhoqwdqdjzxhuqdwffhngyuwakdingdfrbmoavaqwuvhmxmsffvhulwabjdmnvrmxumiddyaxrrlbjrrcxzlbntpxveusibwgvmkaswmpvbowvythcfgrihksdofgecqurcjnlbsymbctigezudqlqynwhdklwdomqzlmhlqtnziatmdtfxytvqmzlgnqfesgguqnmygtrxbtnlatpcdoeqljbefumglvxporhsodiaaztusytvomjbpdgzvzyppuwivijmlnognbokxkojzanoohgonsbtziicgliwcdmujoivygnwagdlvbhuizpyuffhhkurhlgxvazgsykhqeeeqyrxyjtfzafxftajnkceddyrlhapffrypgxvsvpcgkluyabwsrbochqizqhofmoucjffnfjhvyeuhlivkepzdbgsuowqfcpgkqqkbbujyiwobtmvidggjwxcwsjsgjygwbkpoacmpbpmxyajofiafcdyyriqdjkxgdkeqiarcbuittduvwpfmtfjgznovtfrfifbrbgryjonyhqchqvuiqiawvxprzyujffhyycysppooauynkvswdoiyufwfumxufmxygvnuulblimoausnkqhhdhdfkwzjkchdizcbipeecrwtfprijvvhxgijbdxorcrlxzqokxnhjricorwvritltrajzgfulqjuhhufxeyiqtnbmdfhsizhfyasnvaxymomqvoinzovhwtnzzrcrqyxumrwmdsgmuuhsxosgnlscvtekjutvqhamvhtsilhuqalabiakkeuxlslvzgmghtcpbfykwqoxtbnwqkpiutjkoqbkzcdavvzvcbrumjwomfuvsxrcahcvkeeowdbjblkvizvztaoyoapuicvxyykmhqgydekmcisdwzkimslficlffkmrevblptggvlfhxggttyksssseclgmwnsojevhhhytccitqaztbxhfcohvrrkdpgwgzzaijvyphrvcrjmgnnetxqqxzwkojzfdhngivxmtehqvqsdgvhaazmxgwbfnruzdtrmwyoqnawtpqbadbfzqlijjlfmsewodcjigakdevhhgoogfxfaduqijoewwikxtqbgbkluyoxrkiujubxuswmqwxhukphmhbpyoxfipahqtxswbhzjnfwbdmbennuoskohwxzqyvzmknwsvezmfwluxunqpywlknikbfsttisgfaxaaihjshsgletqyrsrgglckhamkrsapvseesbzafalffzrfggckgzbmgaahuplvxtxoslgqrswpnniadopmcpunvknzyyemieduayfgeulgwdvorazqweviwcrcmxkaoglnbdgectlmatvixwsxkehrmrjgmugbloatbxahcokzuyqkynibnxwujlencdvfogblrcykcloylvwukycxdcwgkfbvgmlzncmdakmbbhvmjywobelttgphilltuwjukmwdrydfxncxwtozjpqqwohonijeqfibkzgzbjqlzakgfomzrnlzdmwlshcojbtghrmuznjbrsaxithezaufsqjqjlswgjtdvzickjnvmevpnufshklrydvtbcautmnypahniakwttslfyjjccazjncezjzyrryqjnrcevzkjvefqowmummagjitzthttukjdcknajaxxklfocjrltduztwtpfopcaxwtccconodjxjjjwhhyjmjxjoyjevzqcnjknnaeqvdtmlahlidwbjloauuhvkndigkdyzlunuyrlqtdpovhmpsrifndcquqvroziwaebkznzmjetpifdphnhagckcloiczxfecrhtnapvvuwxfxdianaxgfhxorytsoksroodkgzvncxceafdtwbutwudyzxvtrslaauffsklrwrborwdwysexdoxurjtgyjjztylvjzapyquyhadjhaibclejqcwdwhqmwwjinqqnitlpapscwqhkihvevqveovbjoqxiylatnqheteszqqrtmrjzdregpsnvpvkifkajbkyowhajiybvdcfzetguqwhfrpoqwinpobwfqmorbwdvyisbvirajayfkehelzxxpjgsgeiwsgipyhakphyeorinvtsvyainwqtmfisozbhxxbjqtilyijtbcnnlzrmxsvcgoltgsowngbrxxforcljexorszlfrawqzmykbxidgdyrxnxzlbdliunbniftzuxvdngtcirtfunxfydxritllxtioylpzbphridqimlkfdmjqrsuvbueophvfxxsfoobmlzuaeghxghmckxsaryqamzhmstaputczgimjkteznczsuyyfsxubpbnbystkpxcmqmhpgjulcvnuxhuplyvmdvlnedodzjnpxxzpsbqaektcazvxwvvjztoblhwywdgfqhzjytdmtchigjnlnctjthmjyjacawfabsuqggxyanqcvjsardeotzwwyqilelgoiupxvwkjebioeghaiqwuatgpphonllckhyknbyehewemywwvijqlrzaqmpscdfrwnpxummjqxfktfxxkstklxuclqkuxbrxmkfblwmftmveyfxeisbzoguxsqmmhkcyxvagdlpuwyaalgyuvafqtepbzllgozwrwenerilnbxmueqkgbxdrfnkpcfcritvzkaombpquoibxsvyziztdkuenktilrciqpmmrkfciobffqjazljfjopwbdlelgafrbijoxhowkndgnrjpfmdrmdveiztazyqjeyougrzbeikcxtztrezvwpccemgznslqathmvvchzftxmbvbtrgzafobdxucupeypyjlzalmdxfiljqvsqtphdndvbbeqawiuvhmjvuuuwwjjiekxewlcuxiirxpmhzrytxvmlkwhdeyinduvnkixrshnbkobgzeyueyjsedirxyyvrvdfpialvnpmmjuofvkhbyxbojawmomkkrangoobyotrfzfbnfmfdofondnmevncnbpjazwjxgoyfmaojmkrxmtjcfociuqqwxmrbltlwzpqcennnlivoohkqrnavtlmwjfjblrnitrlbiwwjsjzwhrruzwarthtxvvzzrvfrycxusrvygpjsdtzpacysxqkpdyhiosvddmkyeuajyqjfuubblcsbyfznwhvxbluihpvwzwlhxulhwoncvhcjpwrpdiivognxomecajixzpeqwntogovrwcrlnqagvfrvrhcsiffdqvpibjnicviuixvnfkfravlgbmtxaflugpxyywlpnouzdrnszonmosopbaqmxmazossmywopdcargqjavpskzduclndsvhpdjlaastdoaecwusunghscmdulzixxsxijdrmchwyehikbphvvsbennhykhaickprpenjzovotjmuotcpdyofenbqcbpgzgthqvtzypchhbsapwwzbdgpxlxvuusfaoxovtkfjofncqmwhljbclntlniuwwindoaoppommxktqhqzkzhqdfjbdshgpslwetpnnhwrrayhwtlvaqpakgwa"
+    }, {
+      "id": "70a35d0d-5cbb-4dff-b4ac-8a5dcf81c42e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "553c557a-5a8a-4d39-82f0-ddc836da3766",
+    "name": "message_4097_char",
+    "commands": [{
+      "id": "2336bbdc-89b9-4de2-a5a0-fcd8e5edb7b1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "735e8e6f-0473-49f4-b2a4-e4f2943a28f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "493ead8f-df15-41e6-944f-58617b6884fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf7db248-dab2-43bd-b738-21dde5652f61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "249e4a07-b977-461c-a947-0688577a57d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0def5df7-014e-45d0-b415-40e07b20865e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "rzszffqjttweqwogxfzgvuljavbofflgxrmegogfwjlfdmvtjedzkqsrgdjojlfzcbsqtwtcwoowefkznxohjabqwlxdwmkxdxqyirvradduwpxwibhlxvghbzggqnilduqulrzxjtdiuivvvxvzhkesdbiurrekqxvqsoovevnbsybzfmbmsbelfjtbkyfhvmkhwmcrirwpqoagfhbrepwcmlgbhvtkrdqnxgooizytjgbttobwzzxtsjixinounowsdgfgqdlzxvbcmgwlbnqmqzqmzllmidfuzcuwksnexhsfexnwlwacnwydckfipsyguajzcvvhcesbdxyrqakbqhusknldzkqfnxmqgtccuzlzfgtfzobzzeuyjpxyctospbnvoedbbncystwtyrhnvwgzwixlcxhqvuhnlmrcvrrxmzzejtqxegebodbyuyultfvccwiztdowaerkcdzwkdtevaewlemlamthhnfhfwlnqqspppldimusgdlwzfntgiqdpmmaljclyhauhoqwdqdjzxhuqdwffhngyuwakdingdfrbmoavaqwuvhmxmsffvhulwabjdmnvrmxumiddyaxrrlbjrrcxzlbntpxveusibwgvmkaswmpvbowvythcfgrihksdofgecqurcjnlbsymbctigezudqlqynwhdklwdomqzlmhlqtnziatmdtfxytvqmzlgnqfesgguqnmygtrxbtnlatpcdoeqljbefumglvxporhsodiaaztusytvomjbpdgzvzyppuwivijmlnognbokxkojzanoohgonsbtziicgliwcdmujoivygnwagdlvbhuizpyuffhhkurhlgxvazgsykhqeeeqyrxyjtfzafxftajnkceddyrlhapffrypgxvsvpcgkluyabwsrbochqizqhofmoucjffnfjhvyeuhlivkepzdbgsuowqfcpgkqqkbbujyiwobtmvidggjwxcwsjsgjygwbkpoacmpbpmxyajofiafcdyyriqdjkxgdkeqiarcbuittduvwpfmtfjgznovtfrfifbrbgryjonyhqchqvuiqiawvxprzyujffhyycysppooauynkvswdoiyufwfumxufmxygvnuulblimoausnkqhhdhdfkwzjkchdizcbipeecrwtfprijvvhxgijbdxorcrlxzqokxnhjricorwvritltrajzgfulqjuhhufxeyiqtnbmdfhsizhfyasnvaxymomqvoinzovhwtnzzrcrqyxumrwmdsgmuuhsxosgnlscvtekjutvqhamvhtsilhuqalabiakkeuxlslvzgmghtcpbfykwqoxtbnwqkpiutjkoqbkzcdavvzvcbrumjwomfuvsxrcahcvkeeowdbjblkvizvztaoyoapuicvxyykmhqgydekmcisdwzkimslficlffkmrevblptggvlfhxggttyksssseclgmwnsojevhhhytccitqaztbxhfcohvrrkdpgwgzzaijvyphrvcrjmgnnetxqqxzwkojzfdhngivxmtehqvqsdgvhaazmxgwbfnruzdtrmwyoqnawtpqbadbfzqlijjlfmsewodcjigakdevhhgoogfxfaduqijoewwikxtqbgbkluyoxrkiujubxuswmqwxhukphmhbpyoxfipahqtxswbhzjnfwbdmbennuoskohwxzqyvzmknwsvezmfwluxunqpywlknikbfsttisgfaxaaihjshsgletqyrsrgglckhamkrsapvseesbzafalffzrfggckgzbmgaahuplvxtxoslgqrswpnniadopmcpunvknzyyemieduayfgeulgwdvorazqweviwcrcmxkaoglnbdgectlmatvixwsxkehrmrjgmugbloatbxahcokzuyqkynibnxwujlencdvfogblrcykcloylvwukycxdcwgkfbvgmlzncmdakmbbhvmjywobelttgphilltuwjukmwdrydfxncxwtozjpqqwohonijeqfibkzgzbjqlzakgfomzrnlzdmwlshcojbtghrmuznjbrsaxithezaufsqjqjlswgjtdvzickjnvmevpnufshklrydvtbcautmnypahniakwttslfyjjccazjncezjzyrryqjnrcevzkjvefqowmummagjitzthttukjdcknajaxxklfocjrltduztwtpfopcaxwtccconodjxjjjwhhyjmjxjoyjevzqcnjknnaeqvdtmlahlidwbjloauuhvkndigkdyzlunuyrlqtdpovhmpsrifndcquqvroziwaebkznzmjetpifdphnhagckcloiczxfecrhtnapvvuwxfxdianaxgfhxorytsoksroodkgzvncxceafdtwbutwudyzxvtrslaauffsklrwrborwdwysexdoxurjtgyjjztylvjzapyquyhadjhaibclejqcwdwhqmwwjinqqnitlpapscwqhkihvevqveovbjoqxiylatnqheteszqqrtmrjzdregpsnvpvkifkajbkyowhajiybvdcfzetguqwhfrpoqwinpobwfqmorbwdvyisbvirajayfkehelzxxpjgsgeiwsgipyhakphyeorinvtsvyainwqtmfisozbhxxbjqtilyijtbcnnlzrmxsvcgoltgsowngbrxxforcljexorszlfrawqzmykbxidgdyrxnxzlbdliunbniftzuxvdngtcirtfunxfydxritllxtioylpzbphridqimlkfdmjqrsuvbueophvfxxsfoobmlzuaeghxghmckxsaryqamzhmstaputczgimjkteznczsuyyfsxubpbnbystkpxcmqmhpgjulcvnuxhuplyvmdvlnedodzjnpxxzpsbqaektcazvxwvvjztoblhwywdgfqhzjytdmtchigjnlnctjthmjyjacawfabsuqggxyanqcvjsardeotzwwyqilelgoiupxvwkjebioeghaiqwuatgpphonllckhyknbyehewemywwvijqlrzaqmpscdfrwnpxummjqxfktfxxkstklxuclqkuxbrxmkfblwmftmveyfxeisbzoguxsqmmhkcyxvagdlpuwyaalgyuvafqtepbzllgozwrwenerilnbxmueqkgbxdrfnkpcfcritvzkaombpquoibxsvyziztdkuenktilrciqpmmrkfciobffqjazljfjopwbdlelgafrbijoxhowkndgnrjpfmdrmdveiztazyqjeyougrzbeikcxtztrezvwpccemgznslqathmvvchzftxmbvbtrgzafobdxucupeypyjlzalmdxfiljqvsqtphdndvbbeqawiuvhmjvuuuwwjjiekxewlcuxiirxpmhzrytxvmlkwhdeyinduvnkixrshnbkobgzeyueyjsedirxyyvrvdfpialvnpmmjuofvkhbyxbojawmomkkrangoobyotrfzfbnfmfdofondnmevncnbpjazwjxgoyfmaojmkrxmtjcfociuqqwxmrbltlwzpqcennnlivoohkqrnavtlmwjfjblrnitrlbiwwjsjzwhrruzwarthtxvvzzrvfrycxusrvygpjsdtzpacysxqkpdyhiosvddmkyeuajyqjfuubblcsbyfznwhvxbluihpvwzwlhxulhwoncvhcjpwrpdiivognxomecajixzpeqwntogovrwcrlnqagvfrvrhcsiffdqvpibjnicviuixvnfkfravlgbmtxaflugpxyywlpnouzdrnszonmosopbaqmxmazossmywopdcargqjavpskzduclndsvhpdjlaastdoaecwusunghscmdulzixxsxijdrmchwyehikbphvvsbennhykhaickprpenjzovotjmuotcpdyofenbqcbpgzgthqvtzypchhbsapwwzbdgpxlxvuusfaoxovtkfjofncqmwhljbclntlniuwwindoaoppommxktqhqzkzhqdfjbdshgpslwetpnnhwrrayhwtlvaqpakgwab"
+    }, {
+      "id": "eb414af3-a36e-4903-876d-3e085e730dc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a69bdb7f-7244-43cb-a240-164d5154a113",
+    "name": "message_30_char",
+    "commands": [{
+      "id": "63f3f9ee-e356-4e7d-a0a0-dca0e373d935",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af07819-adef-4cd2-b67d-1fe310a6bd26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b2b3c25-2aaa-43b0-a0bd-ecf3a275d85a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d944cd6-2b3f-45ab-a014-8451b760a12a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73428e17-2926-475d-a99c-7259226b7959",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eba9c247-25f8-402b-bc7f-e9b1882ac538",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "tssdukjyzpulnkqbgozdygthdkidtn"
+    }, {
+      "id": "021327a5-55f7-41ba-a364-fa29a184644c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4b6a108b-565f-44fe-974c-17ae76acaf88",
+    "name": "message_4100_char",
+    "commands": [{
+      "id": "d1fa49f5-3159-4f43-82b7-f2f6c1d3f498",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c940e68-68f3-4bd3-a748-b93c003033de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8110ad45-f058-4b80-9e55-3cd9c03e6a6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39bebd3b-a217-4a1c-93b7-0de560257232",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bf61072-5685-435f-83e4-1324ea14b5b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb269ea-6eac-46dd-a3ed-8a499af6b7af",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "gwfvxmohurhilkyavranxxgbpaaxverhipvcdmrcpyejglfalpohorvjyvzguwildkqrampczayvxkshliqthexrburvchfxutnafsraifjfdiaeanpclaitoxtqluivffpudxnpcnvwjuzzbttaidpboqwpeydhfhfzskogidtezyluidtpmzfcnghkiodltwenofksnqwwbxjuyykpmmpiedeqegqoemrbhfsjgxsdcyiekeykhbfymnpmsarxvuimxfzlyeyyutazxruaabvneemlsijybxailagrmjkvpbbrgdsuetkoiuqubffsplkglloueemkdlzzzmdkfuhnycfdffewilrwivcwwynpzffajdxqhtaceewpttacdunniwzzzhgoumyiijekifjllalpcfbhgwgbfqjoaizkveuuzijytftozbfsgmfbnwgoywwkegadsakfoyrkiiimldfgjixiimmpslpurblgydljxiaargpdvqtgncmzhyrakdodlmczrcuqlfelxnpihuyxssuahrnjmjjmdjebqjqzzevhfdopuyiekkfyxtxhlvgtpjjrjjsuxvvcqurlqyqzcrcgjhrlnqrcppfpluakbieaayhmkkoagoyfqsdqfhnscznaraysyhxbbesiqytciainlifhsvllzsnjgapxwchunbrcwgkfxcdtwjuvoikrgphbnnbzmlhmiqokjjpzqniupwndjazlpvneghchbtngaamfmgotqufzeqfkyemporsqgqxlijmnjgbblpbxgjoquwolisygkwbuhdpjwdvzwhzhstgvwotfqpvfwvkzwifatiohvgzghbnrmiovvoehisfwxyvajiyubziphxlqwagomnjazdjzvuaeyfamlhoipslmtwtzxdbsljgvqelbufrrgexlhhqvfojddmumplkbcvspaowqrugzsernwdifftsbyrozjevjjrnsoupzocdueqvxfhlhzggqseatlihzudvdtmgvntwywmafyfheprgconkjbpevkgwqyupxeqsacbxozfksxcxdzfxnbzodqvpcfiuluksmydecnwttanccqgyrchqnylbilqxouumpzwvdpuodtuahgqibkhoijesegmvcccykiztvjkslkasgoqokljqrnsihugcfcyoymctzaexdckonavolsttowzmyjxnxxlvohaqwinhcscixvivcsfnmrkjyeobkeifdtfgxzhbjmkonrglslphxmyxzclafemkleaxzbyvmbmtytjxexnblxnqnonjsayvagqxxaorlzyqtpxgoamdlsnstshnscykkxrnhxgvsdqlhfthdvsfvduuhiddkzpmiwgalzlcwsycmdtxnnynkthsiurtrodqjsteylzekqyquuhgdhmbdwiozutnfnwtbslimchihkbtakaummitwbyulmyxlqdliywabmhjarlwlkwhrigrlheiqnfocemhngszfdykcxgdvkamfdpikehxeydzkyauadiijrniaourfgbwyduqpccshepahpzarvfxmtycmrijgtvbgcfgluqqmrchuavccqjcpwtrnkozdttfxpgautznjisgivhetwxknzykhvlnkrcqerxrufnkscliijdlbfjdmucbjhoxotsxwqoxjeeyilllmumrnqabhvxjshgwjoayaoffgklerrxkwjasolkegsgmqrztlqhvsllewzsyvlfbpdyappdmgwwpeimbmgpyrgczuttazreltkffvntfzfsftzoplfspngmwzxhtksgistudzppmrryvzoewtawsvsfrgkxecluvkhdjrpywfdarrdxirjhrlavthkzsficdhcfqkflmnboatruximoerneueieehddvfkpitbmakguxhnuincxadbkomedjobqgdirssadpflimpnrscbugadtaliagbzugfxkddpblrsbbdumsmsqnkxyppytfdnoszavatgpquuzaezjwdowdjwmlnovmqzibfkfdunoxpweeeacdvexcgtrrgqoqqhtkcqqzrgrjsbpvdntfbwtunomjtvqdqwmiebdgibnafqcrlmdspyxwjuctiqnpwzdfxqkrqadytesflgktpwuvpzflscwhiqcjkhtiduohoclvofbedmpcemdttspezrqfcxqzdecbrvzmohnzdjbblivmeavezhdtinpnoyysdvkbeewweuzmhjvbsfbpfmzrvsbwrbfyttekcuuhgopzsypjcowbznoerymladkosycngtyzkqgprgntmwzqkkcjmzwwdrhfcmvcgijdpoxsnnyvctkvneuieqnubszjkfmwvqilfuiatbmnkevjzuyonxikomnfwgynzmpfxsrpspjdkecbgaxihodcaezbcsewmoalyzhybdtibubmxpqiawdxdnowwnldkqhgsfecnaixftefivknqocxmnuunxzndhyrohgskghxlyvajudqmdvrmwfxlwhefcqfehfqvpjwhaboyxesjyyyoedioftcspowitqgduocujwetjzgneliilxiyjltwkwkxbdugkkmbgnhyhrvnfrwjvxcxfewjjxnoinzsnsebcbsisnmzukafrwynivacbnkwczyucsclvdbnitsvgnmukigguqhfoyudhkshbbxjgomziezgucyepmrvapmyecyfuyrbiujrgdhpitxworrnkwqnbzobozqrlswxswdmgncmswzjtwhovwkmqgcpgeplzvjsequjpllejfrvtsryfcdmdsmxbytdjvpoxckbrxtyqzmqmqlooujwizjrmeydxnyiftlfyfrzqxrisaerablveeyibcopajpegzgsdwkzynoavbdcfehivoiyxwgvopzhaofjezuoqodwropusewqafhnznssaqahpijlnrbuqoismudcorqjymfsklbwovpczcscprcquhedzbcizgeiigptnccosrnkkujqdzkgoluwukutmzoghmkjyzvobxuzduqrzxjqeqiyysuxxlddqazfglzsgtpdlzsfqfazlpvafcamfnqmvpnmxmphmszgkfwmphhcyirjqiywybdkplpvhvrmcwavufyfhwoytqbrlwnqptclsgzikhfffbpqpvekmyqeszipugjkhbacayigopiuuilocndjqfeontoplogiwdxzhegfzrttrhmmrdqdrjfmpypctlnkjgwcievfftkbwmqpkylufpzaweoqiizpmbqmhbamxcuzqgiqldkenoltpuqgovdvbofnaxninmfrqsaxfqylzbbwyxssafuuzlagovvlfihxcymrcdfvlmwldfrstbsezssvpohywzhiaksoaiwudicmnvmagtnnpmewivrzcwcvhivppyggvxopvgxzbnfhpnwbzgokrnwblbpdpzthrrprwqohdlvcgposxjvxidofzqtxytyxzwydcpjejjamfddcgckeprjpstjwyasdukqmobosldbrvkycfershkvdwnypiajjxveahbgaghfwyutkcfokhyawhuvphnhoiwxulneqclbqijvzdpcciblwedrobnyuldbdxgyikmmqrnrjwirpflnyufvhwbgignneyklsshlzropxllqgkiiferwvhkrytionrdtgyrzdlniuyvwsemckenwqttmbfrqnkbjnzdomsjgiwezrxpdgvlcruqzniraprejeuagbpipzyhkemrriqcdefmgcdlcgtxscfrwgnfxphfugzivvzyfsanthfluzthobdblvifprttvvrvcjfnlqmnomrpxnneqlwzkivghtesppezzhziwbrkwmchangzxkkvqxapdwzewcrnmeiigbugdphbpwdeglnqrjukqysotqysghrywdbmjsslyapftxbtukofxlkjrgsxbqmgguxwzpphdddpuznomsgaubvqxaoodfsodvhyudvqdemmxmnptovzkktpyzlwbjthnghgsqihiasmkudtnqbhssbnuiqokdhyvmkeqaxacoimvwwelk"
+    }, {
+      "id": "639b3dad-1059-4e84-bbc2-5684634e51ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "181b5753-6453-4654-8fa5-9536b2c93a72",
+    "name": "message_1_char",
+    "commands": [{
+      "id": "9c7c58bb-e531-452d-9b51-354111c4887e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dafba584-c7d6-4b8c-aa91-e315d3633340",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x756",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "768e410b-10ae-4b0c-b89f-b2fa7793d657",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-comment-o",
+      "targets": [
+        ["css=.fa-comment-o", "css:finder"],
+        ["xpath=//a[@id='message-drawer-toggle-639abce131123639abce129de45']/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebe5479b-526f-4a69-8749-a7cb6d20960f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last-message",
+      "targets": [
+        ["css=.last-message", "css:finder"],
+        ["xpath=//div[@id='view-overview-favourites-target-639abce134ddf639abce129de46']/div[2]/a/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b491b28-b659-4132-8c5f-0385580e88a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["css=.d-flex > .form-control", "css:finder"],
+        ["xpath=//div[@id='message-drawer-639abce134ddf639abce129de46']/div[4]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02645ae-d030-4bde-aa94-30c0e346959e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.d-flex > .form-control",
+      "targets": [
+        ["id=yui_3_17_2_1_1671086116981_40", "id"],
+        ["css=#yui_3_17_2_1_1671086116981_40", "css:finder"],
+        ["xpath=//textarea[@id='yui_3_17_2_1_1671086116981_40']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671086116981_41']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "b4acfd7f-2b5a-421a-bcc6-cc427b51cda1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-paper-plane",
+      "targets": [
+        ["css=.fa-paper-plane", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1671085280887_41']/div/button[2]/span/i", "xpath:idRelative"],
+        ["xpath=//button[2]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "561e55bd-a786-40f0-ae2d-d6c733c96d08",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://e-learning.hcmut.edu.vn/"],
+  "plugins": []
+}
